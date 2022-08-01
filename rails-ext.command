@@ -1,0 +1,35 @@
+exts=(
+"vscode-icons-team.vscode-icons"
+"aki77.rails-db-schema"
+"aki77.rails-routes"
+"bung87.rails"
+"bung87.vscode-gemfile"
+"CraigMaslowski.erb"
+"ecmel.vscode-html-css"
+"formulahendry.auto-close-tag"
+"formulahendry.auto-rename-tag"
+"Hridoy.rails-snippets"
+"jduponchelle.rainbow-end"
+"jeff-hykin.better-cpp-syntax"
+"kaiwood.endwise"
+"manasxx.background-cover"
+"mosapride.zenkaku"
+"MS-CEINTL.vscode-language-pack-ja"
+"oderwat.indent-rainbow"
+"pranaygp.vscode-css-peek"
+"rebornix.ruby"
+"shardulm94.trailing-spaces"
+"Vense.rails-snippets"
+"VisualStudioExptTeam.vscodeintellicode"
+"vscode-icons-team.vscode-icons"
+"wingrunr21.vscode-ruby"
+"xabikos.JavaScriptSnippets"
+"Zignd.html-css-class-completion"
+)
+cmd="code"
+for ext in "${exts[@]}"
+    do
+        cmd="$cmd --install-extension $ext"
+    done
+
+eval $cmd
